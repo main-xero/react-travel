@@ -6,6 +6,7 @@ body {
 body {
   font-family: Inter;
   background: #f8f8f8;
+  color: #020202;
 }
 
 .container {
@@ -18,7 +19,8 @@ header {
   justify-content: center;
   align-items: center;
   height: 55px;
-  background: #a203dc;
+  color: white;
+  background: #01221f;
 }
 
 header > img {
@@ -34,11 +36,11 @@ header > h1 {
 article.journal-entry {
   display: flex;
   align-items: center;
-  margin-bottom: 36px;
-  padding: 1rem;
+  margin: 36px 0;
+  padding: 0.4rem 0.6rem;
   border-radius: 0.8rem;
-  background: #faf0fe;
-  filter: drop-shadow(0 0 0.5rem rgba(4, 49, 250, 0.658));
+  background: #f8f8f8;
+  filter: drop-shadow(0 10px 0.4rem #01221f1a);
 }
 
 article.journal-entry .marker {
@@ -93,4 +95,5 @@ article.journal-entry .info-container span.country {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  color: #01221f;
 }
